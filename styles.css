@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display:inline-block;
+    color:crimson;
+    background-color: aliceblue;
+    border: 8px solid royalblue;
+    border-radius: 80px;
+    padding: 10px;
+}
+h2 {
+    color:blue;
+}
+
+h3 {
+    color:royalblue;
+}
+
+.personal {
+    display: flex;
+    flex-flow: row wrap;
+   /* justify-content: flex-start; */
+   justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 25px;
+}
+
+#pdata {
+    font-weight: bolder;
+}
+
+.contacts h2{
+    padding-left: 40px;
+}
+
+.blog h2{
+    padding-left: 40px;
+}
+.containerh {
+    display:flex;
+   /* flex-flow: row wrap; */
+    justify-content: space-around;
+}
+
+.boxh ul {
+    padding-left: 0px;
+}
+
+/* Codice Blog */
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    font-size: 1rem;
+    /*background-color: #eee; */
+    /* font: 1rem 'Fira Sans', sans-serif; */
+}
+
+.forecast > h2,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
